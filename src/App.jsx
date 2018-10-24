@@ -8,6 +8,10 @@ class App extends Component {
     return (
       <Fragment>
         <MainContent />
+        <form netlify name="test-form">
+			<input type="text" name="name" />
+			<input type="submit" value="tell me ya name" />
+        </form>
       </Fragment>
     );
   }

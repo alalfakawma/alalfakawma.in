@@ -21,7 +21,7 @@ export default class FormModal extends React.Component {
 			<div ref={ this.modal } className={ !this.state.modalOpen ? "modal" : "modal is-active" }>
 				<div onClick={ this.toggleModal } className="modal-background"></div>
 				<div className="modal-content">
-					<form method="post" name="contact" className="box" style={{ background: "#FFFDD0" }} data-netlify="true" data-netlify-honeypot="bot-field">
+					<form name="contact" className="box" style={{ background: "#FFFDD0" }} data-netlify="true" data-netlify-honeypot="bot-field">
 						<div className="field">
 						  <label className="label">Name</label>
 						  <div className="control">
