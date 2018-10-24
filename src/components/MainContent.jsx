@@ -17,7 +17,7 @@ export default class MainContent extends React.Component {
 		return (
 			<React.Fragment>
 				<FormModal ref={ this.formModal } />
-				<div className="content-holder is-size-4">
+				<div className="content-holder is-size-5">
 					<span>&raquo; Hello, I am</span>
 					<div>
 						&raquo; <Typer text="Aseem Lalfakawma." textClass="has-text-weight-bold" />
