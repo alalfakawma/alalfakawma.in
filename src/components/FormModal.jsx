@@ -21,7 +21,7 @@ export default class FormModal extends React.Component {
 			<div ref={ this.modal } className={ !this.state.modalOpen ? "modal" : "modal is-active" }>
 				<div onClick={ this.toggleModal } className="modal-background"></div>
 				<div className="modal-content">
-					<form method="POST" name="message-me" className="box" style={{ background: "#FFFDD0" }} netlify>
+					<form method="POST" name="message-me" className="box" style={{ background: "#FFFDD0" }} data-netlify="true">
 						<div className="field">
 						  <label className="label">Name</label>
 						  <div className="control">
@@ -42,6 +42,8 @@ export default class FormModal extends React.Component {
 						    <textarea class="textarea" name="message"></textarea>
 						  </div>
 						</div>
+
+						<div data-netlify-recaptcha></div>
 
 						<div className="field has-text-centered">
 							<button type="submit" className="button send-message-button">Send Message</button>
