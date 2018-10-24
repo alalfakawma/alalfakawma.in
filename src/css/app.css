@@ -13,3 +13,26 @@ html {
 a {
 	color: #ff420e;
 }
+
+input, textarea {
+	background: rgba(255, 255, 255, 0.3) !important;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	border-bottom: 1px solid #ff420e !important;
+	border-radius: 0 !important;
+}
+
+.button.send-message-button {
+	margin-top: 20px;
+	border-radius: 0;
+	background: transparent;
+	border: 1px solid #ff420e;
+	font-weight: 700;
+}
+
+.button.send-message-button:hover {
+	background: #ff420e;
+	border: 1px solid white;
+	transition: all 1s;
+}
