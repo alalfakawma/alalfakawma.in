@@ -36,3 +36,19 @@ input, textarea {
 	border: 1px solid white;
 	transition: all 1s;
 }
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+	/* Ipad */
+	.content-holder {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	/* Mobile phones */
+	.content-holder {
+		width: 90%;
+		font-size: 70% !important;
+	}
+}

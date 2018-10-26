@@ -1,22 +1,10 @@
 import React from 'react';
 import Typer from './Typer.jsx';
-import FormModal from './FormModal.jsx';
 
 export default class MainContent extends React.Component {
-	constructor(props) {
-		super(props);
-		this.formModal = React.createRef();
-		this.toggleModal = this.toggleModal.bind(this);
-	}
-
-	toggleModal() {
-		this.formModal.current.toggleModal();
-	}
-
 	render() {
 		return (
 			<React.Fragment>
-				<FormModal ref={ this.formModal } />
 				<div className="content-holder is-size-5">
 					<span>&raquo; Hello, I am</span>
 					<div>
@@ -29,8 +17,8 @@ export default class MainContent extends React.Component {
 							hire me
 						</a>
 						&nbsp;|&nbsp;
-						<a onClick={ this.toggleModal }>
-							message me
+						<a href="https://github.com/alalfakawma" target="_blank" rel="noopener noreferrer">
+							github
 						</a>
 					</div>
 				</div>
