@@ -20,6 +20,10 @@ export default class MainContent extends React.Component {
 						<a href="https://github.com/alalfakawma" target="_blank" rel="noopener noreferrer">
 							github
 						</a>
+						&nbsp;|&nbsp;
+						<a href="https://gitlab.com/alalfakawma" target="_blank" rel="noopener noreferrer">
+							gitlab
+						</a>
 					</div>
 				</div>
 			</React.Fragment>
